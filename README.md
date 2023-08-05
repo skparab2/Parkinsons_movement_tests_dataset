@@ -40,4 +40,4 @@ Results from 31 participants (13 Parkinson's, 18 Non-Parkinson's) from a movemen
   - Feature 31. Net accumulated deviation from centerline when tracing straight line (percentage of screen height)
   - Feature 32. Total accumulated deviation from centerline when tracing straight line (percentage of screen height)
   - Feature 33. Avg of absolute values of deviation from centerline when tracing straight line (percentage of screen height)
-    
+- An optimized model based on this data was a RandomForestClassifier trained on features 1, 7, 10, 18, 20, 28. These features were deemed as important using an ExtraTreeClassifier importance predictor.
